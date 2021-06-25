@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SnilsCNC
+namespace SnilsCNCHelper
 {
     class Program
     {
@@ -42,8 +42,8 @@ namespace SnilsCNC
             int snils_cnc = 0;
             int sum = snils_multiples.Sum();
 
-            #endregion
-            #region Проводим сверку числа по правилам
+        #endregion
+        #region Проводим сверку числа по правилам
 
         checking:
             if (sum < 100)
@@ -64,7 +64,7 @@ namespace SnilsCNC
             #region Выводим CNC. Profit!
 
             Console.WriteLine("CNC is :" + snils_cnc);
-            Console.ReadKey(); 
+            Console.ReadKey();
 
             #endregion
         }

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>passport_colorfull.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="passport_colorfull.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="passport_colorfull.ico" />
+  </ItemGroup>
+
+</Project>
