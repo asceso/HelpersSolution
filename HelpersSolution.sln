@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassportDateHelper", "Passp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnilsCNC", "SnilsCNC\SnilsCNC.csproj", "{F2D1FD67-AE37-4D17-9995-C72C38FDD0D1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ReleaseVersions", "ReleaseVersions", "{B2C706DD-A5FC-44DC-A8E4-83D21B0D4389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
